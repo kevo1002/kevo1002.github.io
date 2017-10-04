@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.18.1/moment.min.js"></script>
+ 
+
+  <title></title>
+</head>
+<body>
+  <div class="jumbotron">
+    <p></p>
+    <div class="container">
+  <h1>Welcome to Dealio!</h1>
+  <h3> Ensure your 'deal' is actually a DEALIO! </h3>
+  <p>Discover the best deals for nearby restaurants, spas, things-to-do, shopping, and more...AND get the latest crowd sourced user reviews and ratings!</p>
+
+<form id="searchForm" method="post" class="form-horizontal">
+    <div class="form-group">
+    <row>
+        <div class="col-xs-1">
+        </div>
+        <div class="col-md-3">
+        <label class="control-label">Search Deals</label>
+            <select id="deal-category">
+            <option>Category</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+        <label class="control-label">Sub</label>
+            <select id="deal-sub">
+            <option>Option</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+         <label class="control-label">Location</label>
+            <input type="text"  id="deal-location" placeholder="Zipcode" />
+        </div>
+        <div class="col-md-2">
+           <input id="submit-search" type="submit" value="Submit" class="btn btn-primary">
+        </div>
+        </row>
+    </div>
+  </div>
+  </form>
+</div>
+<div>
+<row>
+  <div class="col-md-8">
+              <div id="deals-View"></div>
+  </div>
+  <div class="col-md-4">
+            <div id="reviews-View"></div>
+  </div>
+</row>
+</div>
+<footer>
+        <div id="footer">
+            <h4 id="copyright">&copy; Copyright 2017 Brendan Dailey/Kevin Hamilton/Beverly Miramontes/Shamela Qazei/Tiffany Yim</h4>
+        </div>
+    </footer>
+     <script src="assets/js/new_script.js"></script>
+</body>
+</html>

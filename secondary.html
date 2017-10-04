@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/stylesecondary.css">
+  <link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.3.1/firebase.js"></script>
+  <script src="https://cdn.jsdelivr.net/momentjs/2.18.1/moment.min.js"></script>
+</head>
+<style>
+
+
+
+.control-label{
+  width: 110px;
+  padding-top: 6px;
+  background-color: #289988;
+  margin-right: -20px;
+  padding-right: 20px;
+  height: 34px;
+  text-align: center !important;
+  color: white;
+}
+.btn {
+   border-color: #289988;
+   background-color: #289988;
+   border-radius: 0;
+}
+.container-fluid{
+border-width: 1px;
+border-style: solid;
+border-color: #289988;
+border-top: 0;
+}
+
+</style>
+<body>
+<div class="container">
+ <h1>Dealio</h1>
+  <p class="headPage"> Ensure your 'deal' is a DEALIO!</p>
+</div>
+ <!--<div class="topnav" id="myTopnav">-->
+<form id="searchForm" method="post" class="form-horizontal">
+    <div class="form-group">
+    <row>
+        <div class="col-md-3">
+        <label class="control-label">Search Deals</label>
+            <select id="deal-category">
+            <option>Category</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+        <label class="control-label">Sub</label>
+            <select id="deal-sub">
+            <option>Option</option>
+            </select>
+        </div>
+        <div class="col-md-3">
+         <label class="control-label">Location</label>
+            <input type="text"  id="deal-location" placeholder="Zipcode" />
+        </div>
+        <div class="col-md-2">
+           <input id="submit-search" type="submit" value="Submit" class="btn">
+        </div>
+        </row>
+  </div>
+  </form>
+</div>
+<div>
+<div id="deals-View">
+ <!-- <row>
+  <div class="col-md-4">
+      <div id="reviews-View"></div>
+  </div>
+  <div class="col-md-8">
+      <div id="deals-View"></div>
+  </div>
+</row>-->
+</div>
+</div>
+    <footer id="footer">
+       <h4 id="copyright">&copy; Copyright 2017 Brandon Daily-Kevin Hamilton-Beverly Miramontes-Tiffany Yim-Shamela Qazei</h4>
+    </footer>
+    <script src="assets/js/new_script.js"></script>
+
+
+</body>
+
+</html>

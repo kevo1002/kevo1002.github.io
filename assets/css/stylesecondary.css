@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+}
+/*html{
+    position: relative;
+    min-height: 100%;
+}
+*/
+html, body {
+    height: 100%;
+}   
+body{
+    background-image: url("../images/background2.jpg");
+} 
+.container{
+background-image: url("../images/background.jpg");
+background-size: 105%;
+font-family: 'Changa', sans-serif;
+background-repeat: no-repeat;
+margin-bottom: 0;
+margin-top: 0;
+height: 130px;
+width: 100%;
+text-align: center;
+}
+.btn{
+	font-weight: bold;
+	color: white;
+	width: 94px;
+}
+.btn-primary {
+	margin-top: 15px;
+    color: #fff;
+    background-color: #289988 ;
+    border-color: #289988 ;
+}
+h1{
+	color: white;
+	font-weight: bold;	
+	font-size: 60px;
+}
+.headPage{
+	color: white;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.form-group{
+ padding-left: 30px !important;
+ margin-left: 0;
+ margin-right: 0;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ border-style: solid;
+ border-color: #F0B52E;
+ background-color: #F0B52E;
+ margin-bottom: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+button, input, select, textarea {
+    color: gray;
+    width: 45%;
+    height: 35px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#deals-View{
+    height: 200px;
+    width:100%;
+    text-align: center;
+/*    border-color: #FF8C00;
+    border-width: 2px;
+    border-style: solid;
+    color: white;
+    margin:10px;
+    background-color: #F0B52E;*/
+
+}
+
+#reviews-View{
+    clear:both;
+    height: 200px;
+    width:60%;
+    margin-top: 40px;
+    right:0;
+}
+.dealzBox{
+  border-color: #FF8C00;
+  border-width: 1px;
+  border-style: solid;
+  color: gray;
+  padding:10px;
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: transparent;
+}
+
+#footer{
+    font-family: 'Changa', sans-serif;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top: 0;
+    background-color: #289988;
+    color: white;
+    position:fixed!important;
+    position:absolute;
+    margin: 0 auto;
+    visibility:visible;
+}
+
+#footer h4{
+margin: 0 auto;
+padding: 5px;
+}
+
+.image-View {
+	margin-left: -10px;
+    height: 190px;
+    width: 255px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.dealBtn{
+	width: 100px;
+    margin-top: 15px;
+}
+
+h4{
+margin-top: 15px;
+}
+.btn:hover{
+	color: white;
+	background-color: #1A6352;
+}
+.btn:focus{
+	color: white;
+}
+.btn: active{
+	color: white;
+}
+.yelpStars
+{
+    height: 50px;
+    width: 40%;
+/*    text-align: center;
+    align-items: middle;*/
+    margin-top: 15px;
+    max-width: 320px;
+}
+.noDeals{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin: 30px;
+    font-family: 'Changa', sans-serif;
+    font-size: 2em;
+}
