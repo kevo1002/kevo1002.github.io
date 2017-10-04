@@ -45,7 +45,7 @@ function populateDropdown(elementId, options){
 
 var catData = {};
 $.ajax({
-    url: "http://api.sqoot.com/v2/categories?api_key=BfnFKFtwdc-UU9MV9jZE",
+    url: "https://api.sqoot.com/v2/categories?api_key=BfnFKFtwdc-UU9MV9jZE",
     method: "GET"
 }).done(function(data){
     
@@ -115,7 +115,7 @@ zip = $("#deal-location").val().trim();
 console.log(zip);
     
     
-var queryURL = "http://api.sqoot.com/v2/deals?api_key=" + authKey + "&category_slugs=" + value + "&location=" + zip;     
+var queryURL = "https://api.sqoot.com/v2/deals?api_key=" + authKey + "&category_slugs=" + value + "&location=" + zip;     
  
      
    $.ajax({
